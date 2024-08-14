@@ -1,10 +1,13 @@
 #!/bin/bash
 
-# Create virtual environment
-python3 -m venv .venv
-
-# Activate virtual environment
-source .venv/bin/activate
+# Check if the virtual environment is already active
+if [[ "$VIRTUAL_ENV" != "" ]]; then
+    echo "Virtual environment is already active."
+else
+    # Create and activate virtual environment
+    python3 -m venv .venv
+    source .venv/bin/activate
+fi
 
 # Install packages from requirements.txt
 if [ -f requirements.txt ]; then
@@ -12,6 +15,3 @@ if [ -f requirements.txt ]; then
 else
     echo "requirements.txt not found. Please make sure it exists in the current directory."
 fi
-
-# Instructions to activate the virtual environment
-echo "To activate the virtual environment, run: source .venv/bin/activate"
