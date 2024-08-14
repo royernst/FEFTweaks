@@ -1,4 +1,5 @@
-# FEFTwiddler
+# FEFTweaks
+
 A save editor for Fire Emblem Fates
 
 What this does:
