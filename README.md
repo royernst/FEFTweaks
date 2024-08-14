@@ -21,6 +21,7 @@ How to use:
 Have fun, and I guess report problems? I don't know how much I'll add to this...
 
 Special thanks:
+* Soaprman for making FEFTwiddler https://github.com/Soaprman/FEFTwiddler
 * RainThunder for making FEST https://github.com/RainThunder/FEST
 * SciresM for making FEAST, which FEST is based upon https://github.com/SciresM/FEAST
 * Also RainThunder for making the convoy editor, which I drew some inspiration from https://github.com/RainThunder/Fire-Emblem-Fates-Convoy-Editor
