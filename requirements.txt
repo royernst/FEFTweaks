@@ -1,1 +1,16 @@
-
+altgraph==0.17.4
+astroid==3.2.4
+cx_Freeze==7.2.0
+dill==0.3.8
+filelock==3.15.4
+isort==5.13.2
+mccabe==0.7.0
+packaging==24.1
+patchelf==0.17.2.1
+pillow==10.4.0
+platformdirs==4.2.2
+pyinstaller-hooks-contrib==2024.8
+pylint==3.2.6
+tomli==2.0.1
+tomlkit==0.13.2
+typing_extensions==4.12.2
